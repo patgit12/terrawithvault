@@ -25,7 +25,7 @@ credential_type = "iam_user"
     {
       "Effect": "Allow",
       "Action": [
-        "iam:*"
+        "iam:*", "eks:*", "ec2:*"
       ],
       "Resource": "*"
     }
